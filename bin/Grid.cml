@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cml tuio="false" simulator="false">
+
+<StageKit fullscreen="true" />
+
+<Album horizontal="false" width="1920" height="1080" mouseChildren="true" clusterBubbling="true" backgroundAlpha="0"> 
+	
+	<Album x="0" y="0" margin="10" width="1920" height="460" mouseChildren="true" clusterBubbling="true" backgroundAlpha="0">	
+
+	<RenderKit dataRootTag="row1">
+		<Renderer>
+		<TouchContainer id="gridObject" width="300" height="460" mouseChildren="true">
+			<Graphic shape="rectangle" width="300" height="460" fill="color" color="0x000000" lineStroke="0" alpha="0.9"/>
+			<TouchContainer mouseChildren="false" targetParent="true">
+				<Image src="{image}" width="300" height="{image-height}" />
+				<Text y="{text-1-y}" x="10" text="{text}" color="0xffffff" fontSize="17" width="280" font="OpenSansBold" multiline="true" wordWrap="true"/>
+				<Text y="{text-2-y}" x="10" text="{text-2}" color="0xffffff" fontSize="13" width="280" font="OpenSansRegular" multiline="true" wordWrap="true"/>
+			</TouchContainer>
+		</TouchContainer>
+
+		</Renderer>
+
+	<RendererData>
+
+	<row1>
+		<image>library/images/1800.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Alessandro Volta discovers electrochemical series and invents the battery in 1800</text>
+		<text-2-y>340</text-2-y>
+		<text-2>The battery made by Volta is credited as the first electrochemical cell. It consists of two electrodes: one made of zinc, the other of copper. The electrolyte is either sulfuric acid mixed with water or a form of saltwater brine. The electrolyte exists in the form 2H+ and SO42−. The zinc, which is higher than both copper and hydrogen in the electrochemical series, reacts with the negatively charged sulfate (SO42−).</text-2>
+	</row1>
+	<row1>
+		<image>library/images/1802.jpg</image>
+		<image-height>350</image-height>
+		<text-1-y>370</text-1-y>
+		<text>Jean-Baptiste Lamarck teleological evolution in 1802</text>
+		<text-2-y>370</text-2-y>
+		<text-2></text-2>
+
+	</row1>
+	<row1>
+		<image>library/images/1805.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>John Dalton Atomic Theory in Chemistry in 1805</text>
+		<text-2-y>370</text-2-y>
+		<text-2>John Dalton is best known for his work in the development of modern atomic theory, and his research into color blindness.</text-2>
+	</row1>
+
+	<row1>
+		<image>library/images/1824.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Carnot described the Carnot cycle, the idealized heat engine in 1824</text>
+		<text-2-y>320</text-2-y>
+		<text-2>The most important contribution Carnot made to thermodynamics was his abstraction of the essential features of the steam engine, as they were known in his day, into a more general and idealized heat engine.</text-2>
+	</row1>
+
+	<row1>
+		<image>library/images/1827.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Georg Ohm's law in 1827</text>
+		<text-2-y>340</text-2-y>
+		<text-2>Ohm's acoustic law, sometimes called the acoustic phase law or simply Ohm's law, states that a musical sound is perceived by the ear as a set of a number of constituent pure harmonic tones. </text-2>
+	</row1>
+	<row1>
+		<image>library/images/1830.jpg</image>
+		<image-height>380</image-height>
+		<text-1-y>390</text-1-y>
+		<text>Nikolai Lobachevsky created Non-Euclidean geometry in 1830</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row1>
+	<row1>
+		<image>library/images/1831.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Michael Faraday discovers electromagnetic induction in 1831</text>
+		<text-2-y>340</text-2-y>
+		<text-2> Michael Faraday was an English scientist who contributed to the fields of electromagnetism and electrochemistry. His main discoveries include those of electromagnetic induction, diamagnetism and electrolysis.</text-2>
+	</row1>
+	<row1>
+		<image>library/images/1838.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Matthias Schleiden discovers all plants are made of cells in 1838</text>
+		<text-2-y>300</text-2-y>
+		<text-2>Schleiden was one of the first German biologists to accept Charles Darwin's theory of evolution. He concluded that all plant parts are made of cells and that an embryonic plant organism arises from the one cell.</text-2>
+	</row1>
+	<row1>
+		<image>library/images/1838-2.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Friedrich Bessel made first successful measure of stellar parallax in 1838</text>
+		<text-2-y>390</text-2-y>
+		<text-2>Friedrich Bessel is credited with being the first to use parallax in calculating the distance to a star.</text-2>
+	</row1>
+	<row1>
+		<image>library/images/1842.jpg</image>
+		<image-height>380</image-height>
+		<text-1-y>390</text-1-y>
+		<text>Christian Doppler and the Doppler effect in 1842</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row1>
+	</RendererData>
+
+	</RenderKit>
+
+	</Album>
+
+	<Album x="0" y="0" margin="10" width="1920" height="460" mouseChildren="true" clusterBubbling="true" backgroundAlpha="0">	
+
+	<RenderKit dataRootTag="row2">
+		<Renderer>
+		<TouchContainer id="gridObject" width="300" height="460" mouseChildren="true">
+			<Graphic shape="rectangle" width="300" height="460" fill="color" color="0x000000" lineStroke="0" alpha="0.9"/>
+			<TouchContainer mouseChildren="false" targetParent="true">
+				<Image src="{image}" width="300" height="{image-height}" />
+				<Text y="{text-1-y}" x="10" text="{text}" color="0xffffff" fontSize="17" width="280" font="OpenSansBold" multiline="true" wordWrap="true"/>
+				<Text y="{text-2-y}" x="10" text="{text-2}" color="0xffffff" fontSize="13" width="280" height="500" font="OpenSansRegular" multiline="true" wordWrap="true"/>
+			</TouchContainer>
+		</TouchContainer>
+
+		</Renderer>
+
+	<RendererData>
+
+	<row2>
+		<image>library/images/1906.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Walther Nernst third law of thermodynamics in 1906</text>
+		<text-2-y>370</text-2-y>
+		<text-2>Nernst provided a means of determining free energies of chemical reactions from heat measurements.</text-2>
+	</row2>
+
+	<row2>
+		<image>library/images/1911.jpg</image>
+		<image-height>350</image-height>
+		<text-1-y>370</text-1-y>
+		<text>Ernest Rutherford atomic nucleus in 1911</text>
+		<text-2-y>370</text-2-y>
+		<text-2></text-2>
+	</row2>
+	<row2>
+		<image>library/images/1912.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Alfred Wegener Continental drift in 1912</text>
+		<text-2-y>370</text-2-y>
+		<text-2>Wegener publicly advocated the theory of "continental drift", arguing that all the continents were once joined together in a single landmass and have drifted apart.</text-2>
+	</row2>
+	<row2>
+		<image>library/images/1913.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Henry Moseley defined atomic number in 1913</text>
+		<text-2-y>300</text-2-y>
+		<text-2>Moseley's outstanding contribution to the science of physics was the justification from physical laws of the previous empirical and chemical concept of the atomic number. This stemmed from his development of Moseley's law in X-ray spectra. Moseley's Law justified many concepts in chemistry.</text-2>
+	</row2>
+	<row2>
+		<image>library/images/1915.jpg</image>
+		<image-height>380</image-height>
+		<text-1-y>390</text-1-y>
+		<text> Albert Einstein theory of general relativity in 1915</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row2>
+	<row2>
+		<image>library/images/1915-2.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Karl Schwarzschild discovery of the Schwarzschild radius leading to the identification of black holes in 1915</text>
+		<text-2-y>350</text-2-y>
+		<text-2>Some of Schwarzschil's achievements include measurements of variable stars, using photography, and the improvement of optical systems, through the perturbative investigation of geometrical aberrations.</text-2>
+	</row2>
+
+	<row2>
+		<image>library/images/1924.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Edwin Hubble discovered that the Milky Way is just one of many galaxies in 1924</text>
+		<text-2-y>340</text-2-y>
+		<text-2>His observations proved conclusively that nebulae were much too distant to be part of the Milky Way and were, in fact, entire galaxies outside our own.</text-2>
+	</row2>
+	<row2>
+		<image>library/images/1927.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Georges Lemaître theory of the Big Bang in 1927</text>
+		<text-2-y>370</text-2-y>
+		<text-2>Lemaître was a pioneer in applying Albert Einstein's theory of general relativity to cosmology. He derived what became known as Hubble's law. </text-2>
+	</row2>
+	<row2>
+		<image>library/images/1932.jpg</image>
+		<image-height>380</image-height>
+		<text-1-y>390</text-1-y>
+		<text>James Chadwick discovery of the neutron in 1932</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row2>
+	<row2>
+		<image>library/images/1943.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Oswald Avery proves that DNA is the genetic material of the chromosome in 1943</text>
+		<text-2-y>340</text-2-y>
+		<text-2>Avery was one of the first molecular biologists and a pioneer in immunochemistry, but he is best known for his discovery that DNA is the material of which genes and chromosomes are made.</text-2>
+	</row2>
+	</RendererData>
+	</RenderKit>
+
+	</Album>
+
+	<Album x="0" y="0" margin="10" width="1920" height="460" mouseChildren="true" clusterBubbling="true" backgroundAlpha="0">	
+
+	<RenderKit dataRootTag="row2">
+		<Renderer>
+		<TouchContainer id="gridObject" width="300" height="460" mouseChildren="true">
+			<Graphic shape="rectangle" width="300" height="460" fill="color" color="0x000000" lineStroke="0" alpha="0.9"/>
+			<TouchContainer mouseChildren="false" targetParent="true">
+				<Image src="{image}" width="300" height="{image-height}" />
+				<Text y="{text-1-y}" x="10" text="{text}" color="0xffffff" fontSize="17" width="280" font="OpenSansBold" multiline="true" wordWrap="true"/>
+				<Text y="{text-2-y}" x="10" text="{text-2}" color="0xffffff" fontSize="13" width="280" height="500" font="OpenSansRegular" multiline="true" wordWrap="true"/>
+			</TouchContainer>
+		</TouchContainer>
+
+		</Renderer>
+
+	<RendererData>
+	<row3>
+		<image>library/images/1951.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>George Otto Gey propagates first cancer cell line in 1951</text>
+		<text-2-y>370</text-2-y>
+		<text-2>George Gey is credited for creating the roller drum. This machine was one of the first to help nurture cell cultures.</text-2>
+	</row3>
+	<row3>
+		<image>library/images/1952.jpg</image>
+		<image-height>380</image-height>
+		<text-1-y>390</text-1-y>
+		<text> Jonas Salk developed and tested first polio vaccine in 1952</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row3>
+	<row3>
+		<image>library/images/1953.jpg</image>
+		<image-height>350</image-height>
+		<text-1-y>370</text-1-y>
+		<text>Crick and Watson discover helical structure of DNA, basis for molecular biology in 1953</text>
+		<text-2-y>370</text-2-y>
+		<text-2></text-2>
+	</row3>
+	<row3>
+		<image>library/images/1963.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Discovery Paleomagnetic stripes in ocean crust as evidence of plate tectonics</text>
+		<text-2-y>390</text-2-y>
+		<text-2>Matthews contributed significantly to geology by relating the magnetic properties of ocean crust to the theory of plate tectonics.</text-2>
+	</row3>
+	<row3>
+		<image>library/images/1967.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Jocelyn Bell Burnell discovers first pulsar in 1967</text>
+		<text-2-y>370</text-2-y>
+		<text-2> Bell discovered the first radio pulsars while under her thesis supervisor Antony Hewish, for which Hewish shared the Nobel Prize in Physics with Martin Ryle.</text-2>
+	</row3>
+	<row3>
+		<image>library/images/1984.jpg</image>
+		<image-height>380</image-height>
+		<text-1-y>390</text-1-y>
+		<text>Kary Mullis invents polymerase chain reaction in 1984</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row3>
+	<row3>
+		<image>library/images/1986.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Karl Müller and Johannes Bednorz discover High-temperature superconductivity in 1986</text>
+		<text-2-y>340</text-2-y>
+		<text-2>Müller and Bednorz were jointly awarded the Nobel Prize in physics—the shortest time between the discovery and the prize award for any scientific Nobel.</text-2>
+	</row3>
+
+	<row3>
+		<image>library/images/1994.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Andrew Wiles proves Fermat's Last Theorem in 1994</text>
+		<text-2-y>320</text-2-y>
+		<text-2>His proof of Fermat's Last Theorem has stood up to the scrutiny of the world's mathematical experts.</text-2>
+	</row3>
+
+	<row3>
+		<image>library/images/1995.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Michel Mayor observes the first extrasolar planet around a main sequence star</text>
+		<text-2-y>320</text-2-y>
+		<text-2>Mayor was one of 11 European scientists who discovered Gliese 581 c, the first extrasolar planet in a star's habitable zone, from ESO's telescope in La Silla, Chile.</text-2>
+	</row3>
+
+	<row3>
+		<image>library/images/1997.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Roslin Institute clones sheep in 1997</text>
+		<text-2-y>320</text-2-y>
+		<text-2>The Institute created Dolly the sheep, the first mammal to be cloned from an adult cell. A year later Polly and Molly were cloned, both sheep contained a human gene.</text-2>
+	</row3>
+
+	</RendererData>
+
+	</RenderKit>
+
+	</Album>
+
+	<Album x="0" y="0" margin="10" width="1920" height="460" mouseChildren="true" clusterBubbling="true" backgroundAlpha="0">	
+
+	<RenderKit dataRootTag="row4">
+		<Renderer>
+		<TouchContainer id="gridObject" width="300" height="460" mouseChildren="true">
+			<Graphic shape="rectangle" width="300" height="460" fill="color" color="0x000000" lineStroke="0" alpha="0.9"/>
+			<TouchContainer mouseChildren="false" targetParent="true">
+				<Image src="{image}" width="300" height="{image-height}" />
+				<Text y="{text-1-y}" x="10" text="{text}" color="0xffffff" fontSize="17" width="280" font="OpenSansBold" multiline="true" wordWrap="true"/>
+				<Text y="{text-2-y}" x="10" text="{text-2}" color="0xffffff" fontSize="13" width="280" height="500" font="OpenSansRegular" multiline="true" wordWrap="true"/>
+			</TouchContainer>
+		</TouchContainer>
+
+		</Renderer>
+
+	<RendererData>
+
+	<row4>
+		<image>library/images/1998.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Gerson Goldhaber and Saul Perlmutter observed that the expansion of the universe is accelerating in 1998</text>
+		<text-2-y>370</text-2-y>
+		<text-2></text-2>
+	</row4>
+
+	<row4>
+		<image>library/images/2003.jpg</image>
+		<image-height>350</image-height>
+		<text-1-y>370</text-1-y>
+		<text>Grigori Perelman presents proof of the Poincaré Conjecture</text>
+		<text-2-y>370</text-2-y>
+		<text-2></text-2>
+	</row4>
+	<row4>
+		<image>library/images/2006.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Shinya Yamanaka generates first induced pluripotent stem cells in 2006</text>
+		<text-2-y>390</text-2-y>
+		<text-2>Shinya Yamanaka and his team generated induced pluripotent stem cells (iPS cells) from adult mouse fibroblasts</text-2>
+	</row4>
+	<row4>
+		<image>library/images/2010.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>J. Craig Venter Institute creates the first synthetic genome for a bacterial cell in 2010</text>
+		<text-2-y>320</text-2-y>
+		<text-2>A highly publicized accomplishment was the complete assembly of a 1.08 million base pair Mycoplasma mycoides genome, which was then inserted into a cell to create the first cell with a completely synthetic genome.</text-2>
+	</row4>
+	<row4>
+		<image>library/images/2011.jpg</image>
+		<image-height>330</image-height>
+		<text-1-y>350</text-1-y>
+		<text>Darach Watson discovered making accurate measurements of cosmic distances in 2011</text>
+		<text-2-y>340</text-2-y>
+		<text-2></text-2>
+	</row4>
+	<row4>
+		<image>library/images/2011-2.jpg</image>
+		<image-height>225</image-height>
+		<text-1-y>240</text-1-y>
+		<text>Matteo Mariantoni developed a quantum version of the “Von Neumann” architecture in 2011</text>
+		<text-2-y>320</text-2-y>
+		<text-2>Based on superconducting circuits and integrated on a single chip, the new “CPU” has been used to perform two important quantum-computing related algorithms.</text-2>
+	</row4>
+
+	<row4>
+		<image>library/images/2012.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Felix Baumgartner broke the 50-year-old mark for highest-ever skydive in 2012</text>
+		<text-2-y>340</text-2-y>
+		<text-2>Baumgartner leaped from a balloon nearly 39 kilometers above Earth’s surface, traveling at supersonic speeds before landing in southeastern New Mexico.</text-2>
+	</row4>
+	<row4>
+		<image>library/images/2012-2.jpg</image>
+		<image-height>300</image-height>
+		<text-1-y>310</text-1-y>
+		<text>Ron Fouchier created lethal strain of the bird flu in 2012</text>
+		<text-2-y>370</text-2-y>
+		<text-2>He used four genetic tweaks to create a lethal strain of the H5N1 bird flu, which sparked a global discussion about whether deadly pathogens should be created.</text-2>
+	</row4>
+	<row4>
+		<image>library/images/2013.jpg</image>
+		<image-height>360</image-height>
+		<text-1-y>370</text-1-y>
+		<text>First hand transplantation operation is successfully conducted in 2013</text>
+		<text-2-y>320</text-2-y>
+		<text-2></text-2>
+	</row4>
+	<row4>
+		<image>library/images/2013-2.jpg</image>
+		<image-height>250</image-height>
+		<text-1-y>260</text-1-y>
+		<text>Internet entrepreneurs announce a new global prize for excellence in the life sciences, offering US$3 million to each recipient in 2013</text>
+		<text-2-y>360</text-2-y>
+		<text-2>Internet entrepreneurs Sergey Brin and Mark Zuckerberg offered $3 million to each recipient.</text-2>
+	</row4>
+	</RendererData>
+	</RenderKit>
+
+	</Album>
+
+</Album>
+
+</cml>
