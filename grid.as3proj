@@ -9,23 +9,24 @@
     <movie width="800" />
     <movie height="600" />
     <movie version="11" />
-    <movie minorVersion="6" />
+    <movie minorVersion="7" />
     <movie platform="Flash Player" />
     <movie background="#FFFFFF" />
   </output>
   <!-- Other classes to be compiled into your SWF -->
   <classpaths>
     <class path="src" />
-    <class path="..\..\gwas\development\cml_core" />
-    <class path="..\..\gwas\development\gml_core" />
-    <class path="..\..\gwas\development\lib" />
+    <class path="..\gestureworks-flash-cml" />
+    <class path="..\gestureworks-flash-gml" />
   </classpaths>
   <!-- Build options -->
   <build>
     <option accessible="False" />
+    <option advancedTelemetry="False" />
     <option allowSourcePathOverlap="False" />
     <option benchmark="False" />
     <option es="False" />
+    <option inline="False" />
     <option locale="" />
     <option loadConfig="" />
     <option optimize="True" />
@@ -66,6 +67,9 @@
     <element path="..\..\..\..\lib\GestureWorksGML.swc" />
     <element path="..\..\gwas\development\lib\cml_ext.swc" />
     <element path="..\..\gwas\development\lib\gml_ext.swc" />
+    <element path="..\gestureworks-flash-cml\lib\cml_ext.swc" />
+    <element path="..\gestureworks-flash-cml\lib\gui.swc" />
+    <element path="..\gestureworks-flash-gml\lib\gml_ext.swc" />
   </libraryPaths>
   <!-- External Libraries -->
   <externalLibraryPaths>
@@ -89,7 +93,7 @@
   </compileTargets>
   <!-- Paths to exclude from the Project Explorer tree -->
   <hiddenPaths>
-    <!-- example: <hidden path="..." /> -->
+    <hidden path="obj" />
   </hiddenPaths>
   <!-- Executed before build -->
   <preBuildCommand />
@@ -99,6 +103,7 @@
   <options>
     <option showHiddenPaths="False" />
     <option testMovie="Default" />
+    <option testMovieCommand="" />
   </options>
   <!-- Plugin storage -->
   <storage>
